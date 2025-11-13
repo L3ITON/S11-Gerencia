@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inicio · Nuevas Tecnologías de Información en Internet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Introducción al informe sobre nuevas tecnologías de información en Internet." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="inicio">
+  <!-- Barra de navegación principal -->
+  <header class="top-bar">
+    <div class="brand">
+      <div class="brand-logo" aria-hidden="true">
+        <div class="brand-symbol">IT</div>
+      </div>
+      <div class="brand-text">
+        <div class="brand-name">Informe TIC</div>
+        <div class="brand-tagline">Tecnologías de información en Internet</div>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="index.html" class="nav-link nav-link--active">Inicio</a>
+      <a href="objetivo.html" class="nav-link">Objetivo</a>
+      <a href="desarrollo.html" class="nav-link">Desarrollo</a>
+      <a href="ejemplo.html" class="nav-link">Ejemplo aplicado</a>
+      <a href="conclusiones.html" class="nav-link">Conclusiones</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <!-- Hero con buscador -->
+    <section class="hero hero--light">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Informe académico · 2020–2025
+        </div>
+        <h1 class="hero-title hero-title--dark">
+          Nuevas tecnologías de información en Internet
+        </h1>
+        <p class="hero-subtitle hero-subtitle--dark">
+          Informe sobre el impacto de las tecnologías de información en Internet
+          en la educación, las organizaciones y la sociedad, con base en
+          investigaciones científicas recientes y un ejemplo aplicado en una
+          institución educativa rural.
+        </p>
+
+        <!-- Buscador de secciones / páginas -->
+        <div class="search-box" aria-label="Buscador de secciones del informe">
+          <label class="search-label" for="searchInput">
+            Busca un tema o punto del informe (ej: “brecha digital”, “objetivo”, “ejemplo rural”)
+          </label>
+          <div class="search-row">
+            <input
+              id="searchInput"
+              class="search-input"
+              type="text"
+              placeholder="Escribe un tema o nombre de sección…"
+              autocomplete="off"
+            />
+            <button id="searchBtn" class="search-btn" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15.5 14h-.79l-.28-.27a6.471 6.471 0 001.57-4.23C15.99 6.01 13.48 3.5 10.49 3.5 7.51 3.5 5 6.01 5 8.99s2.51 5.49 5.49 5.49c1.61 0 3.08-.59 4.23-1.57l.27.28v.79L18.99 19 20 17.99 15.5 14zm-5.01 0C8.01 14 6 11.99 6 8.99S8.01 4 10.49 4s4.49 2.01 4.49 4.99-2.01 5.01-4.49 5.01z"/>
+              </svg>
+              Ir
+            </button>
+          </div>
+          <div class="search-suggestions">
+            <button class="search-chip" data-page="objetivo.html">
+              🎯 Objetivo del informe
+            </button>
+            <button class="search-chip" data-page="desarrollo.html">
+              📚 Transformación educativa
+            </button>
+            <button class="search-chip" data-page="desarrollo.html#brecha">
+              🌐 Brecha digital
+            </button>
+            <button class="search-chip" data-page="ejemplo.html">
+              🏫 Caso rural
+            </button>
+            <button class="search-chip" data-page="conclusiones.html">
+              ✅ Conclusiones generales
+            </button>
+          </div>
+          <div id="searchMessage" class="search-message"></div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-media hero-media--white">
+          <img
+            src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Personas utilizando computadoras en un entorno digital"
+          />
+          <div class="hero-media-caption">
+            <div class="hero-media-icon hero-media-icon--blue" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 5h16v11H4zM2 18h20v2H2z"/>
+              </svg>
+            </div>
+            Representación del trabajo colaborativo mediado por tecnologías.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introducción resumida -->
+    <section class="section-block">
+      <article class="card card--soft">
+        <div class="card-header">
+          <h2 class="card-title card-title--dark card-title--with-icon">
+            <span class="card-title-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M3 4h18v2H3zm0 4h12v2H3zm0 4h18v2H3zm0 4h12v2H3z"/>
+              </svg>
+            </span>
+            1. Introducción
+          </h2>
+          <span class="card-label">Contexto general</span>
+        </div>
+        <div class="card-body card-body--dark">
+          <p>
+            El avance acelerado de la tecnología digital ha modificado de forma
+            profunda cómo accedemos, producimos y compartimos información. Las
+            nuevas tecnologías de información en Internet como la inteligencia
+            artificial, la computación en la nube, las plataformas colaborativas
+            o los entornos virtuales de aprendizaje se han convertido en la
+            base de procesos educativos, productivos y sociales.
+          </p>
+          <p>
+            Estas tecnologías permiten flexibilizar el aprendizaje, automatizar
+            tareas repetitivas en organizaciones y ampliar las posibilidades de
+            comunicación. No obstante, también generan retos en términos de
+            infraestructura, competencias digitales y ética en el uso de datos.
+          </p>
+          <p>
+            Este sitio web organiza el informe en diferentes secciones:
+            objetivo, desarrollo teórico, ejemplo aplicado y conclusiones, de
+            modo que el lector pueda navegar fácilmente entre los contenidos.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Mini galería visual del ecosistema digital -->
+    <section class="section-block">
+      <article class="card card--soft">
+        <div class="card-header">
+          <h2 class="card-title card-title--dark card-title--with-icon">
+            <span class="card-title-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 4h16v6H4zm0 8h7v8H4zm9 8v-8h7v8z"/>
+              </svg>
+            </span>
+            Panorama visual del ecosistema digital
+          </h2>
+          <span class="card-label">Imágenes de referencia</span>
+        </div>
+        <div class="card-body card-body--dark">
+          <p>
+            Las siguientes imágenes representan distintos escenarios donde las
+            tecnologías de información en Internet están presentes: aulas
+            modernas, espacios de trabajo colaborativo y entornos de análisis de
+            datos.
+          </p>
+          <div class="media-grid">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/1181352/pexels-photo-1181352.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Reunión frente a una pantalla con gráficos"
+              />
+              <figcaption>Decisiones apoyadas en datos y analítica.</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/1181670/pexels-photo-1181670.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Estudiantes con computadoras portátiles"
+              />
+              <figcaption>Uso de laptops en actividades de aprendizaje activo.</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Manos programando en una computadora"
+              />
+              <figcaption>Programación y desarrollo de soluciones digitales.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Equipo de trabajo -->
+    <section class="section-block">
+      <article class="card card--soft">
+        <div class="card-header">
+          <h2 class="card-title card-title--dark card-title--with-icon">
+            <span class="card-title-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h7v-2.5c0-.56.11-1.1.31-1.6C7.82 14.32 7.13 14 8 14zm8 0c-.87 0-1.82.32-2.31.9.2.5.31 1.04.31 1.6V19h7v-2.5C21 15.17 16.33 14 16 14z"/>
+              </svg>
+            </span>
+            Equipo de trabajo
+          </h2>
+          <span class="card-label">Participación del grupo</span>
+        </div>
+        <div class="card-body card-body--dark">
+          <p>
+            El informe fue desarrollado de manera colaborativa por un equipo.
+            A continuación se presentan los integrantes y su
+            porcentaje de participación en las distintas fases del trabajo
+          </p>
+          <ul class="team-list">
+            <li>👤 <strong>Campos Neira, Neiber</strong> — 100% de participación</li>
+            <li>👤 <strong>Coronado Sedan, David Jireh</strong> — 100% de participación</li>
+            <li>👤 <strong>Espinoza Mimbela, Angelo Paul</strong> — 100% de participación</li>
+            <li>👤 <strong>Morales Chorres, Alisson Jael</strong> — 0% de participación registrada</li>
+            <li>👤 <strong>Salazar Herrera, José Leiton</strong> — 100% de participación</li>
+            <li>👤 <strong>Zegarra Bernuy, Danna Arelys Antonella</strong> — 100% de participación</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Informe sobre nuevas tecnologías de información en Internet · 2020–2025</span>
+    <span>Sitio web académico · Azul y blanco · Barra superior de navegación.</span>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
